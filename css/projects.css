@@ -1,0 +1,54 @@
+header{
+    text-align: center;
+}
+.Navbar{     
+    /* Navigation Bar */
+    background-color: gray;
+    /* margin-top: -30px; */      /* negative value to bring navbar up */
+    padding: 30px;
+    text-align: right;
+
+}
+.Navbar img{
+    width: 100px;
+    float: left;
+    margin: 0;
+}
+
+.Navbar a{
+    /* targeting the anchors inside Navbar */
+    text-decoration: none;   /* takes off underline */ 
+    padding: 20px;           /* padding between each anchor */
+    color: white;
+    font-size: 20px;    
+}
+footer{
+    /* locking the footer to the bottom of the page */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gray;
+    color: white;
+    text-align: left;
+/* padding order goes: top right bottom left */
+    padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
+}
+
+/*--------------------------------------------------------------------------------------- */
+.iframe-container1{
+   float: right;
+   padding: 300px 400px 0px 0px; /* padding order: top, right, bottom, left */
+
+}
+.project-1{
+    float: left;
+    margin-top: 200px;
+    padding-left: 300px;
+}
+.project-1 h2{
+    font-size: 50px;
+}
+.project-1 p{
+    font-size: 20px;
+}
