@@ -1,4 +1,6 @@
 body{
+    background-image: url('../images/isaac-benhesed-onLbXleIkds-unsplash\ \(1\).jpg');
+    background-position: 50% 20px;
     font-family: 'Montserrat', sans-serif;
 }
 header{
@@ -6,24 +8,24 @@ header{
 }
 .Navbar{     
     /* Navigation Bar */
-    background-color: gray;
-    /* margin-top: -30px; */      /* negative value to bring navbar up */
+    /* background-color: gray; */
+    /* negative value to bring navbar up */
     padding: 30px;
     text-align: right;
-
+}
+.Navbar a{
+    color: black;
+    padding: 25px;          
+    text-decoration: none; 
+}
+.Navbar a:hover{
+    color: white;
+    transition: 0.5s;
 }
 .Navbar img{
     width: 100px;
     float: left;
     margin: 0;
-}
-
-.Navbar a{
-    /* targeting the anchors inside Navbar */
-    text-decoration: none;   /* takes off underline */ 
-    padding: 20px;           /* padding between each anchor */
-    color: white;
-    font-size: 20px;    
 }
 footer{
     /* locking the footer to the bottom of the page */
@@ -31,11 +33,16 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:gray;
-    color: white;
+    /* background-color:gray; */
+    color: gray;
     text-align: left;
 /* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
+}
+i{
+    color: gray;
+    float: right;
+    padding: 0px 20px 0px 0px;
 }
 
 /*--------------------------------------------------------------------------------------- */
