@@ -30,6 +30,7 @@ header{
 }
 .Intro{
     float: left;
+    size: 50%;
     margin-top: 200px;
     padding-left: 300px;
 }
@@ -40,8 +41,8 @@ header{
     font-size: 30px;
 }
 article{
-    padding: 150px 150px 0px 0px; /* padding order: top, right, bottom, left */
-
+    size: 40%;
+    padding: 150px 250px 0px 0px; /* padding order: top, right, bottom, left */
 }
 #profilepic{
     float: right;
@@ -60,6 +61,9 @@ footer{
     text-align: left;
 /* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
+}
+footer p{
+    margin-left: 75px;
 }
 i{
     color: gray;

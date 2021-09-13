@@ -39,6 +39,9 @@ footer{
 /* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
 }
+footer p{
+    margin-left: 75px;
+}
 i{
     color: gray;
     float: right;
@@ -47,18 +50,30 @@ i{
 
 /*--------------------------------------------------------------------------------------- */
 .iframe-container1{
-   float: right;
-   padding: 300px 400px 0px 0px; /* padding order: top, right, bottom, left */
-
+    padding-top: 35px;
 }
 .project-1{
-    float: left;
     margin-top: 200px;
     padding-left: 300px;
 }
-.project-1 h2{
-    font-size: 50px;
-}
+
 .project-1 p{
+    font-size: 20px;
+}
+.iframe-container2{
+    padding-top: 35px;
+}
+.project-2{
+    margin-top: 200px;
+    padding-left: 300px; 
+}
+.project-2 p{
+    font-size: 20px;
+}
+.project-3{
+    margin-top: 200px;
+    padding-left: 300px; 
+}
+.project-3 p{
     font-size: 20px;
 }

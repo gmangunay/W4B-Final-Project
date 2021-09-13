@@ -36,11 +36,32 @@ footer{
     /* background-color:gray; */
     color: gray;
     text-align: left;
-/* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
+}
+footer p{
+    margin-left: 75px;
 }
 i{
     color: gray;
     float: right;
     padding: 0px 20px 0px 0px;
+}
+
+/*--------------------------------------------------------------------------------------- */
+
+.resume{
+
+    /* centering image */
+    display: block;
+    float: left;
+    margin-top: 150px;
+    padding-left: 300px; 
+
+    /* hover */
+    transition: .2s;
+}
+.resume:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }

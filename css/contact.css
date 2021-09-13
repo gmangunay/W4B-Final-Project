@@ -39,6 +39,9 @@ footer{
 /* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
 }
+footer p{
+    margin-left: 75px;
+}
 i{
     color: gray;
     float: right;
