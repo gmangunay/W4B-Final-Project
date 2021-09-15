@@ -8,7 +8,6 @@ header{
 }
 .Navbar{     
     /* Navigation Bar */
-    /* background-color: gray; */
     /* negative value to bring navbar up */
     padding: 30px;
     text-align: right;
@@ -19,7 +18,7 @@ header{
     text-decoration: none; 
 }
 .Navbar a:hover{
-    color: white;
+    color: lightskyblue;
     transition: 0.5s;
 }
 .Navbar img{
@@ -33,7 +32,6 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color:gray; */
     color: gray;
     text-align: left;
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
@@ -42,6 +40,7 @@ footer p{
     margin-left: 75px;
 }
 i{
+    font-size: 20px;
     color: gray;
     float: right;
     padding: 0px 20px 0px 0px;
@@ -50,7 +49,6 @@ i{
 /*--------------------------------------------------------------------------------------- */
 
 .resume{
-
     /* centering image */
     display: block;
     float: left;

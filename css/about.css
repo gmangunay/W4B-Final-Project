@@ -9,7 +9,6 @@ header{
 }
 .Navbar{     
     /* Navigation Bar */
-    /* background-color: gray; */
     /* negative value to bring navbar up */
     padding: 30px;
     text-align: right;
@@ -20,7 +19,7 @@ header{
     text-decoration: none; 
 }
 .Navbar a:hover{
-    color: white;
+    color: lightskyblue;
     transition: 0.5s;
 }
 .Navbar img{
@@ -49,6 +48,7 @@ article{
     height: 400px;
     width: 400px;
     border-radius: 50%;
+    margin-right: 75px;
 }
 footer{
     /* locking the footer to the bottom of the page */
@@ -59,13 +59,13 @@ footer{
     /* background-color:gray; */
     color: gray;
     text-align: left;
-/* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
 }
 footer p{
     margin-left: 75px;
 }
-i{
+footer i{
+    font-size: 20px;
     color: gray;
     float: right;
     padding: 0px 20px 0px 0px;

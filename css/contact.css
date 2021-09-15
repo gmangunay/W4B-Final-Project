@@ -8,7 +8,6 @@ header{
 }
 .Navbar{     
     /* Navigation Bar */
-    /* background-color: gray; */
     /* negative value to bring navbar up */
     padding: 30px;
     text-align: right;
@@ -19,8 +18,8 @@ header{
     text-decoration: none; 
 }
 .Navbar a:hover{
-    color: white;
-    transition: 0.5s;
+    color: lightskyblue;
+    transition: 0.5s; 
 }
 .Navbar img{
     width: 100px;
@@ -36,13 +35,13 @@ footer{
     /* background-color:gray; */
     color: gray;
     text-align: left;
-/* padding order goes: top right bottom left */
     padding: 5px 0px 5px 10px; /* padding order: top, right, bottom, left */
 }
 footer p{
     margin-left: 75px;
 }
 i{
+    font-size: 20px;
     color: gray;
     float: right;
     padding: 0px 20px 0px 0px;
@@ -53,6 +52,7 @@ i{
     margin-left: 75px;
     padding: 10px;
 }
+
 .form{
     float: left;
     size: 50%;
@@ -63,12 +63,12 @@ i{
 }
 input[type=text], select, textarea{
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 10px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 10px; 
+    margin-bottom: 16px; 
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 #message{
